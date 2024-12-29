@@ -1,0 +1,1 @@
+`[field:SerializeField] public int fieldName { get; private set; }` field show in inspector (only works with auto-properties), serialized as <fieldName>#k__BackingField in file, not works with some unity attributes (Header vs.)
